@@ -8,13 +8,3 @@ html, body {
   padding: 0;
   background-color: #0a819e;
 }
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
-  font-size: 3.5em;
-}
