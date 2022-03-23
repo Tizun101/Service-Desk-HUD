@@ -9,10 +9,6 @@ html, body {
   background-color: #0a819e;
 }
 
-h1 {
-  align-items: center;
-}
-
 .button {
   border: none;
   color: white;
@@ -29,10 +25,82 @@ h1 {
 .button1 {
   background-color: white; 
   color: black; 
-  border: 2px solid #4CAF50;
+  border: 2px solid #1e06ee;
+  position: absolute;
+  top: 5%;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #1e06ee;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #d61111;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+
+.button2:hover {
+  background-color: #d61111;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f8e807;
+  position: absolute;
+  top: 15%;
+  left: 76%;
+}
+
+.button3:hover {
+  background-color: #f8e807;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #610555;
+  position: absolute;
+  top: 15%;
+  left: 90%;
+}
+
+.button4:hover {
+  background-color: #610555;
+  color: white;
+}
+
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #fc7a00;
+  position: absolute;
+  top: 25%;
+  left: 76%;
+}
+
+.button5:hover {
+  background-color: #fc7a00;
+  color: white;
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #06b800;
+  position: absolute;
+  top: 25%;
+  left: 90%;
+}
+
+.button6:hover {
+  background-color: #06b800;
   color: white;
 }
