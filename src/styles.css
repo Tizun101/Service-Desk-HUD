@@ -1,5 +1,16 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container{
+  width: 100%;
+  min-width: 200px;
+  max-width:700px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 0%;   
 }
 
 html, body {
@@ -20,6 +31,7 @@ html, body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  position: absolute;
 }
 
 .button1 {
@@ -27,7 +39,7 @@ html, body {
   color: black; 
   border: 2px solid #1e06ee;
   position: absolute;
-  top: 5%;
+  top: 0%;
 }
 
 .button1:hover {
@@ -40,8 +52,7 @@ html, body {
   color: black; 
   border: 2px solid #d61111;
   position: absolute;
-  top: 5%;
-  left: 90%;
+  top: 15%;
 }
 
 .button2:hover {
@@ -54,8 +65,7 @@ html, body {
   color: black; 
   border: 2px solid #f8e807;
   position: absolute;
-  top: 15%;
-  left: 76%;
+  top: 25%;
 }
 
 .button3:hover {
@@ -68,8 +78,7 @@ html, body {
   color: black; 
   border: 2px solid #610555;
   position: absolute;
-  top: 15%;
-  left: 90%;
+  top: 35%;
 }
 
 .button4:hover {
@@ -82,8 +91,7 @@ html, body {
   color: black; 
   border: 2px solid #fc7a00;
   position: absolute;
-  top: 25%;
-  left: 76%;
+  top: 45%;
 }
 
 .button5:hover {
@@ -96,11 +104,94 @@ html, body {
   color: black; 
   border: 2px solid #06b800;
   position: absolute;
-  top: 25%;
-  left: 90%;
+  top: 55%;
+
 }
 
 .button6:hover {
   background-color: #06b800;
   color: white;
 }
+
+.buttontest {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1e06ee;
+}
+
+.buttontest:hover {
+  background-color: #1e06ee;
+  color: white;
+}
+
+.reportticket {
+  border: 10px solid #1e06ee;
+}
+
+.line1 {
+  height: 10px;
+  background: #0124c0;
+  margin: 20px 0;
+  box-shadow: 0px 0px 5px 2px #0124c0;
+}
+
+.title {
+  text-align: right;
+  color: black;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: dashed;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.navtext {
+  text-align: center;
+  text-indent: 5%;
+  text-decoration-style: wavy;
+  color: #ddd;
+  
+}
+
+.report {
+  width: 1400;
+  height: 775;
+  margin: 0 auto;
+  display: block;
+  border-style: none;
+  text-align: left;
+}
+
